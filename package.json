@@ -6,6 +6,11 @@
     "start": "node ./bin/www",
     "local": "DATABASE_URL=sqlite://:@:/  node ./bin/www"
   },
+  "engines":{
+  "node": "0.10.x",
+  "npm": "1.4.x"
+  },
+  
   "devDependencies": {
     "sqlite3": "^2.2.0"
   },
