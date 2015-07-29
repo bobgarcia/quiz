@@ -3,11 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "local": "DATABASE_URL=sqlite://:@:/  node ./bin/www"
-  },
-  "devDependencies": {
-    "sqlite3": "^2.2.0"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.8.1",
@@ -20,6 +16,7 @@
     "pg": "^4.1.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^1.7.0",
-    "serve-favicon": "~2.1.3"
+    "serve-favicon": "~2.1.3",
+    "sqlite3": "^2.2.0"
   }
 }
